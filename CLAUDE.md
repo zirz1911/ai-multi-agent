@@ -504,6 +504,14 @@ Closes #[issue-number]
 -   *Example: Values quick iteration and seeing visual progress.*
 -   *Example: Appreciates clear, actionable feedback and well-defined tasks.*
 -   **Time zone preference: GMT+7 (Bangkok/Asia)**
+-   **Language preference: Thai with technical English terms** - Comfortable with hybrid Thai/English communication
+
+### Environment Verification Patterns (2025-12-24)
+-   **Pattern**: Check tool availability before suggesting installation - `--version` checks save time
+-   **Pattern**: WSL users need both Linux and Windows filesystem perspectives - provide both viewpoints
+-   **Pattern**: Distinguish between `gh` (GitHub CLI) and `git` (version control) early to prevent confusion
+-   **Pattern**: Verify authentication status (`gh auth status`) before executing GitHub operations
+-   **Pattern**: Short exploratory sessions still benefit from full documentation for continuity
 
 ## Troubleshooting
 
