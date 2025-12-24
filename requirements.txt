@@ -1,0 +1,18 @@
+# LangChain Core
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-core==0.1.10
+
+# AI Model Providers
+langchain-anthropic==0.1.1  # Claude
+langchain-openai==0.0.2     # GPT
+langchain-google-genai==0.0.5  # Gemini
+
+# Additional Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.3
+tiktoken==0.5.2  # Token counting for OpenAI
+
+# Optional but useful
+colorama==0.4.6  # Colored terminal output
+rich==13.7.0     # Beautiful terminal formatting
